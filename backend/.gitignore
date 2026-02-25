@@ -1,0 +1,19 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+
+# Database
+*.db
+
+# Model files
+*.pkl
+
+# Environment
+.env
+
+# Node
+frontend/node_modules/
+
+
+
