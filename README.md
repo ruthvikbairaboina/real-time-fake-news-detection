@@ -95,14 +95,12 @@ Joblib
 
 fake-news-detector/
 
-│
-├── backend/
-│ ├── main.py
+| ├── backend/
+| ├── main.py
 │ ├── model.py
 │ ├── database.py
 │ ├── schemas.py
 │ └── data/
-│
 ├── frontend/
 │
 └── README.md
