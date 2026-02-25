@@ -1,12 +1,12 @@
 # real-time-fake-news-detection
 
-Real-Time Fake News Detection System
+**Real-Time Fake News Detection System**
 
 A production-ready machine learning-powered fake news detection platform built using FastAPI and Scikit-learn.
 
 This system performs NLP preprocessing, trains a Logistic Regression classifier using TF-IDF features, evaluates model performance with precision/recall/F1 metrics, and exposes a REST API for real-time predictions.
 
-Features
+**Features**
 
 TF-IDF feature engineering for text vectorization
 
@@ -24,7 +24,8 @@ SQLite database for storing predictions
 
 Swagger documentation support
 
-Model Performance
+
+**Model Performance**
 
 The model is evaluated using an 80/20 train-test split.
 
@@ -45,20 +46,21 @@ POST /predict
 
 Predict whether a news article is REAL or FAKE.
 
-Request Body example:
+
+**Request Body example:**
 
 {
 "text": "Sample news article text here."
 }
 
-Response example:
+**Response example:**
 
 {
 "prediction": "REAL",
 "confidence": 0.94
 }
 
-GET /metrics
+**GET /metrics**
 
 Returns model evaluation metrics:
 
@@ -69,7 +71,8 @@ Returns model evaluation metrics:
 "f1_score": 0.99
 }
 
-Tech Stack
+
+**Tech Stack**
 
 Python
 
@@ -87,7 +90,8 @@ SQLite
 
 Joblib
 
-Project Structure
+
+**Project Structure**
 
 fake-news-detector/
 
@@ -103,13 +107,13 @@ fake-news-detector/
 │
 └── README.md
 
-Dataset
+**Dataset**
 
 Fake and Real News Dataset from Kaggle:
 
 https://www.kaggle.com/datasets/clmentbisaillon/fake-and-real-news-dataset
 
-Place Fake.csv and True.csv inside:
+Fake.csv and True.csv inside:
 
 backend/data/
 
@@ -124,7 +128,8 @@ Then visit:
 
 http://127.0.0.1:8000/docs
 
-Future Improvements
+
+**Future Improvements**
 
 Upgrade to BERT-based transformer model
 
@@ -133,8 +138,8 @@ Add confusion matrix visualization
 Deploy to cloud (Render / AWS / Railway)
 
 
-Author
+**Author**
 
 Ruthvik Bairaboina
-Master's in Computer Science
+Masters in Computer Science
 University of North Texas
